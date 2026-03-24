@@ -1,0 +1,24 @@
+# Datasets - large files excluded from version control
+data/datasets/
+
+# Merged/processed large CSVs
+data/merged_ontime_2025.csv
+data/graph_edges.csv
+data/graph_nodes.csv
+data/rotation_chains.csv
+data/temporal_node_states.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

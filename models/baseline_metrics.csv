@@ -1,0 +1,5 @@
+model,MAE,RMSE,Acc_α>0.5,Acc_α>1.0
+Global mean,12.3431,27.0948,0.5969,0.5623
+Per-airport mean,12.1138,26.9636,0.5969,0.5622
+Per-airport × time-of-day mean,12.0738,26.9505,0.597,0.5626
+Ridge regression (airport_enc + cyclical time + hub),12.0867,26.9374,0.597,0.5624
